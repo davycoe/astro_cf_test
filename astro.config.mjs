@@ -6,4 +6,9 @@ import cloudflare from "@astrojs/cloudflare";
 export default defineConfig({
   output: "server",
   adapter: cloudflare(),
+  vite: {
+    define: {
+      "process.env.ENV_TEST_TWO": JSON.stringify(process.env.ENV_TEST_TWO),
+    },
+  },
 });

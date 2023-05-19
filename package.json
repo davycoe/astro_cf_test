@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "test",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -12,5 +12,8 @@
   "dependencies": {
     "@astrojs/cloudflare": "^6.3.0",
     "astro": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1"
   }
 }
